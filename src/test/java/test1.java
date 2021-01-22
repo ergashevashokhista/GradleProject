@@ -9,7 +9,7 @@ public class test1 {
 
     @Test
     public void testMM(){
-        Assertions.assertEquals(6.0,mm(2.0));
+        Assertions.assertEquals(4.0,mm(2.0));
     }
     static Double mm(Double a){
         return a*a;
